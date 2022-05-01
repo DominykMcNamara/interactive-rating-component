@@ -1,0 +1,41 @@
+.component-container {
+    width: toRem(412);
+    height: auto;
+    border-radius: toRem(30);
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    padding: toRem(32);
+    margin: toRem(195) auto;
+
+}
+
+.component-icon {
+    background-color: $dark-blue;
+    width: toRem(48);
+    height: toRem(48);
+    padding: toRem(16);
+    border-radius: 100%;
+
+    img {
+        margin: toRem(16) toRem(16);
+    }
+}
+
+.component-title {
+     color: #ffff;
+     font-size: toRem(28);
+     font-weight: 700;
+     margin-top: toRem(30);
+}
+
+.component-body {
+    width: toRem(340);
+    margin-top: toRem(7);
+    font-weight: 400;
+    font-size: toRem(15);
+    line-height: toRem(24);
+    color: $light-grey;
+}
+
+.rating {
+   
+}
