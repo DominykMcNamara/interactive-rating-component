@@ -3,7 +3,8 @@
     height: auto;
     border-radius: toRem(30);
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
-    padding: toRem(32);
+    padding-top: toRem(32);
+    padding-left: toRem(32);
     margin: toRem(195) auto;
 
 }
@@ -12,7 +13,6 @@
     background-color: $dark-blue;
     width: toRem(48);
     height: toRem(48);
-    padding: toRem(16);
     border-radius: 100%;
 
     img {
@@ -21,15 +21,15 @@
 }
 
 .component-title {
-     color: #ffff;
-     font-size: toRem(28);
-     font-weight: 700;
-     margin-top: toRem(30);
+    color: #ffff;
+    font-size: toRem(28);
+    font-weight: 700;
+    margin-top: toRem(30);
 }
 
 .component-body {
     width: toRem(340);
-    margin-top: toRem(7);
+    margin-top: toRem(18);
     font-weight: 400;
     font-size: toRem(15);
     line-height: toRem(24);
@@ -37,5 +37,36 @@
 }
 
 .rating {
-   
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: toRem(341);
+    margin-top: toRem(24);
+
+    button {
+        cursor: pointer;
+    }
+
+    .rating-btn {
+        border-radius: 100%;
+        height: toRem(52);
+        width: toRem(52);
+        background-color: $dark-blue;
+        border: none;
+        color: $medium-grey;
+        margin: toRem(6.6)
+    }
+
+    .submit-btn {
+        width: toRem(341);
+        height: toRem(45);
+        margin-top: toRem(32);
+        margin-bottom: toRem(32);
+        border: none;
+        background-color: $orange;
+        color: $white;
+        font-weight: 700;
+        border-radius: toRem(22.5);
+
+    }
+
 }
