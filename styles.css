@@ -68,8 +68,6 @@ body {
 }
 
 .rating-container {
-  display: flex;
-  flex-direction: column;
   width: 25.75rem;
   height: auto;
   border-radius: 1.875rem;
