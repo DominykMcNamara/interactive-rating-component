@@ -11,6 +11,7 @@
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
     padding-top: toRem(32);
     padding-left: toRem(32);
+    padding-right: toRem(24);
     margin: toRem(195) auto;
 
 
@@ -76,6 +77,7 @@
             width: toRem(341);
             height: toRem(45);
             margin-top: toRem(32);
+
             margin-bottom: toRem(32);
             border: none;
             background-color: $orange;
