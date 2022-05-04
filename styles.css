@@ -63,7 +63,11 @@ body {
   background-color: #121417;
 }
 
-.component-container {
+.hidden {
+  display: none;
+}
+
+.rating-container {
   width: 25.75rem;
   height: auto;
   border-radius: 1.875rem;
@@ -72,43 +76,43 @@ body {
   padding-left: 2rem;
   margin: 12.1875rem auto;
 }
-
-.component-icon {
+.rating-container .rating-icon {
   background-color: #252d37;
   width: 3rem;
   height: 3rem;
   border-radius: 100%;
 }
-.component-icon img {
+.rating-container .rating-icon img {
   margin: 1rem 1rem;
 }
-
-.component-title {
+.rating-container .rating-title {
+  margin-top: 1.875rem;
+}
+.rating-container .rating-title h1 {
   color: #ffff;
   font-size: 1.75rem;
   font-weight: 700;
-  margin-top: 1.875rem;
 }
-
-.component-body {
+.rating-container .rating-body {
   width: 21.25rem;
   margin-top: 1.125rem;
+}
+.rating-container .rating-body p {
   font-weight: 400;
   font-size: 0.9375rem;
   line-height: 1.5rem;
   color: #959eac;
 }
-
-.rating {
+.rating-container .rating {
   display: inline-flex;
   justify-content: space-evenly;
   width: 21.3125rem;
   margin-top: 1.5rem;
 }
-.rating button {
+.rating-container .rating button {
   cursor: pointer;
 }
-.rating .rating-btn {
+.rating-container .rating .rating-btn {
   border-radius: 100%;
   height: 3.25rem;
   width: 3.25rem;
@@ -117,7 +121,7 @@ body {
   color: #7c8798;
   margin: 0.4125rem;
 }
-.rating .submit-btn {
+.rating-container .rating .submit-btn {
   width: 21.3125rem;
   height: 2.8125rem;
   margin-top: 2rem;
@@ -127,6 +131,79 @@ body {
   color: white;
   font-weight: 700;
   border-radius: 1.40625rem;
+}
+.rating-container .rating .rating-btn:hover {
+  background-color: #fb7413;
+  color: white;
+}
+.rating-container .rating .rating-btn:focus {
+  background-color: #959eac;
+  color: white;
+}
+.rating-container .rating .rating-btn:active {
+  background-color: #959eac;
+  color: white;
+}
+.rating-container .rating .submit-btn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+.rating-container .rating p {
+  text-align: center;
+  color: red;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25.75rem;
+  height: auto;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+  border-radius: 1.875rem;
+  margin: 12.1875rem auto;
+}
+.thank-you-container h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.1875rem;
+  margin-top: 2rem;
+}
+.thank-you-container .thank-you-image {
+  margin-top: 2.8125rem;
+}
+.thank-you-container .selection-message {
+  background-color: #252d37;
+  border-radius: 1.40625rem;
+  margin-top: 2rem;
+  padding: 0.25rem 1.1875rem 0.25rem 1.25rem;
+  text-align: center;
+}
+.thank-you-container .selection-message p {
+  color: #fb7413;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 12.0625rem;
+  font-weight: 400;
+}
+.thank-you-container .thank-you-message {
+  width: 21.25rem;
+  text-align: center;
+  margin-top: 0.4375rem;
+  margin-bottom: 2.8125rem;
+}
+.thank-you-container .thank-you-message p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #959eac;
 }
 
 /*# sourceMappingURL=styles.css.map */

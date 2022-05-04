@@ -1,0 +1,56 @@
+.hidden {
+    display: none;
+}
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: toRem(412);
+    height: auto;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: toRem(30);
+    margin: toRem(195) auto;
+
+    h1 {
+        color: $white;
+        font-weight: 700;
+        font-size: toRem(28);
+        line-height: toRem(35);
+        margin-top: toRem(32);
+    }
+
+
+    .thank-you-image {
+        margin-top: toRem(45);
+    }
+
+    .selection-message {
+        background-color: $dark-blue;
+        border-radius: toRem(22.5);
+        margin-top: toRem(32);
+        padding: toRem(4) toRem(19) toRem(4) toRem(20);
+        text-align: center;
+        p {
+        color: $orange;
+        font-size: toRem(16);
+        line-height: toRem(24);
+        width: toRem(193);
+        font-weight: 400;
+        
+       
+        }
+    }
+
+    .thank-you-message {
+        width: toRem(340);
+        text-align: center;
+        margin-top: toRem(7);
+        margin-bottom: toRem(45);
+        p {
+            font-size: toRem(15);
+            font-weight: 400;
+            line-height: toRem(24);
+            color: $light-grey;
+        }
+    }
+}
