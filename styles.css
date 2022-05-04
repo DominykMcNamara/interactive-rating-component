@@ -68,6 +68,8 @@ body {
 }
 
 .rating-container {
+  display: flex;
+  flex-direction: column;
   width: 25.75rem;
   height: auto;
   border-radius: 1.875rem;
@@ -155,6 +157,12 @@ body {
   margin-bottom: 2rem;
 }
 
+@media only screen and (min-width: 23.4375rem) {
+  .rating-container {
+    max-width: 20.4375rem;
+    padding: 1.5rem;
+  }
+}
 .hidden {
   display: none;
 }
@@ -204,6 +212,13 @@ body {
   font-weight: 400;
   line-height: 1.5rem;
   color: #959eac;
+}
+
+@media only screen and (min-width: 23.4375rem) {
+  .thank-you-container {
+    max-width: 20.4375rem;
+    padding: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

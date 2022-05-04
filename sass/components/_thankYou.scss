@@ -54,3 +54,10 @@
         }
     }
 }
+
+@media only screen and (min-width: toRem(375)) {
+    .thank-you-container {
+        max-width: toRem(327);
+        padding: toRem(24);
+    }
+}

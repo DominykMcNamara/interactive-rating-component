@@ -3,6 +3,8 @@
 }
 
 .rating-container {
+    display: flex;
+    flex-direction: column;
     width: toRem(412);
     height: auto;
     border-radius: toRem(30);
@@ -111,5 +113,12 @@
             margin-bottom: toRem(32)
         }
 
+    }
+}
+
+@media only screen and (min-width: toRem(375)) {
+    .rating-container {
+        max-width: toRem(327);
+        padding: toRem(24);
     }
 }
